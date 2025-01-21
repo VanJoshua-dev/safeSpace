@@ -42,7 +42,7 @@ function App(props) {
         </header>
         <div className="content-container" id="content-container">
         <Routes>
-            <Route path="/" element={<Home icons = '.homeicon' tabs = '#home'/>} />
+            <Route path="/safeSpace/" element={<Home icons = '.homeicon' tabs = '#home'/>} />
             <Route path="/law_and_penalty" element={<LawandPenalty icons='lawicon' tabs='#law'/>} />
             <Route path="/institutions" element={<Institutions icons='.docicon' tabs ='#institution'/>} />
             <Route path="/articles" element={<Articles icons='.quizicon' tabs='#articles'/>} />
