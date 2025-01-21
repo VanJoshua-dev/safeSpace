@@ -1,0 +1,8 @@
+*May mga components akong ginawa na pwede pang mabago dyan, lahat ng kasali sa live session pwede nyong baguhin
+lahat ng gusto nyong baguhin tnx (van)
+
+*tapos yung sa footer palagyan nalang ng laman
+
+*di ko din sure kung may database, pwede naman dun ilagay yung mga articles para gumana yung search bar
+
+*kung 'di kayo satisfied sa colors or nakukulangan kayo pwede kayong mag add

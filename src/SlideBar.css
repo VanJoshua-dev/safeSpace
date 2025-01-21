@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    padding: 0;
+}
+/*
+    * home container
+*/
+
+
+/*
+    * navbar container
+*/
+.home-navbar{
+    background-color:rgb(54, 54, 71);
+    width: 2.5em;
+    height: 60vh;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    transition: width 0.5s ease;
+    overflow: hidden;
+    gap: 6px;
+    padding-left: 10px;
+    &:hover{
+        width: 15em;
+    }
+}
+
+
+
+.navbar-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+    position: relative;
+    border-right: solid 1px rgb(40, 42, 70);
+    padding-right: 10px;
+}
+
+.navbar-icons .icons{
+    font-size: 0.5rem;
+    color: white;
+    height: 4em;
+    width: 3em;
+    transition: color 0.5s ease-in-out;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    height: 100vh;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    transform: translateY(2px);
+}
+
+ul li{
+    list-style: none;
+    width: 150%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+    text-wrap: nowrap;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(40, 42, 70);
+    }
+}
+
+.navbar-items{
+    width: 5em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    &:hover{
+        width: 15em;
+    }
+    
+}
+
+.navbar-items{
+    background-color:rgb(54, 54, 71);
+    width: 100%;
+}
+
+/*
+    links
+*/
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.phoneicon{
+    transform: translateY(-3px);
+    height: 3.5em;
+}
+/* Style for the active link */
+
+.abouticon{
+    transform: translateY(-3px);
+}
+.quizicon{
+    transform: translateY(-2px);
+}
+
+
+/*For About us*/
+.posterStyle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+

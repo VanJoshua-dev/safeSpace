@@ -1,0 +1,76 @@
+.article-container{
+    height: 100vh;
+    width: 100%;
+    margin-top: 44px;
+    padding-top: 20px;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.article-container::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(54, 54, 71);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.article-container::-webkit-scrollbar
+{
+	width: 7px;
+	background-color: #F5F5F5;
+}
+
+.article-container::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(54, 54, 71);
+	background-color: rgba(54, 54, 71);
+}
+.btn-1,
+ .btn-2,
+ .btn-3,
+ .btn-4,
+ .btn-5,
+ .btn-6,
+ .btn-7,
+ .btn-8,
+ .btn-9{
+    transition: transform 0.5s ease;
+ }
+.btn-1:hover{
+    transform: scale(0.9);
+}
+.btn-2:hover{
+    transform: scale(0.9);
+}
+.btn-3:hover{
+    transform: scale(0.9);
+}
+.btn-4:hover{
+    transform: scale(0.9);
+}
+.btn-5:hover{
+    transform: scale(0.9);
+}
+.btn-6:hover{
+    transform: scale(0.9);
+}
+.btn-7:hover{
+    transform: scale(0.9);
+}
+.btn-8:hover{
+    transform: scale(0.9);
+}
+.btn-9:hover{
+    transform: scale(0.9);
+}
+.Article1, .Article2, .Article3, .Article4,
+.Article5, .Article6, .Article7, .Article8, .Article9{
+    transition: all 0.3s ease-in-out;
+}
+.Article1:hover, .Article2:hover, .Article3:hover, .Article4:hover,
+.Article5:hover, .Article6:hover, .Article7:hover, .Article8:hover, .Article9:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 5px -5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 8px 5px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 8px 5px -5px rgba(0,0,0,0.5);
+}
