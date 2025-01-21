@@ -39,7 +39,7 @@ function Navbar() {
                className={({ isActive }) =>
                 isActive ? "link active homeicon" : "link"
                } id="home"
-                to="/"
+                to="/safeSpace"
               >
                 Home
               </NavLink>
